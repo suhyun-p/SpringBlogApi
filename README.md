@@ -7,3 +7,4 @@ Depedencies : Web, DevTools, Lombok, JPA, H2
 
 # Swagger
 http://localhost:8080/swagger-ui.html
+http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
