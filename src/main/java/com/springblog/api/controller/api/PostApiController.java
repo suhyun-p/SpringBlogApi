@@ -1,6 +1,5 @@
 package com.springblog.api.controller.api;
 
-import com.springblog.api.domain.Member;
 import com.springblog.api.domain.Post;
 import com.springblog.api.dto.post.WritePostRequest;
 import com.springblog.api.service.PostService;
