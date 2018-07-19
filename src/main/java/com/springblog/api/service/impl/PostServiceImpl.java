@@ -4,10 +4,12 @@ import com.springblog.api.domain.Post;
 import com.springblog.api.repository.PostRepository;
 import com.springblog.api.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+@Service
 public class PostServiceImpl implements PostService {
 
     @Autowired
