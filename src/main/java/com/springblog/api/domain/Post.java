@@ -22,8 +22,8 @@ public class Post implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long postNo;
 
-    private String title;
-    private String contents;
+    public String title;
+    public String contents;
 
     @CreatedBy
     private String regMemberId;
